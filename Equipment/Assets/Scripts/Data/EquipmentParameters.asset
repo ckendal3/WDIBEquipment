@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a29a37265110c74786d0e0a425eaba5, type: 3}
+  m_Name: EquipmentParameters
+  m_EditorClassIdentifier: 
+  StationaryMesh: {fileID: 4300000, guid: e3ae06a3979f53046aa05330d69de1fa, type: 3}
+  StationaryMaterial: {fileID: 2100000, guid: a68228c24abfa2f4b8954d7b0148f799, type: 2}
+  DeployableMesh: {fileID: 3591258141441080865, guid: 3d127eb70ce73054bb8031fdaa0c7ecf,
+    type: 3}
+  DeployableMaterial: {fileID: 2100000, guid: 801db2d997a562b4ea333aa4593ce0f0, type: 2}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  Equipments:
+  - {fileID: 11400000, guid: 44836ff52d581564ebf09407d9874e18, type: 2}
