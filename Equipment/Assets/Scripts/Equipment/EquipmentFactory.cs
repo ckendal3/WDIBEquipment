@@ -18,7 +18,7 @@ static class EquipmentFactory
         });
     }
 
-    public static GameObject CreateEquipment(Vector3 position, EquipmentObject data)
+    public static GameObject CreateEquipment(Vector3 position, EquipmentData data)
     {
         //------------- Inner Mesh ---------------
         GameObject go = new GameObject("Equipment");

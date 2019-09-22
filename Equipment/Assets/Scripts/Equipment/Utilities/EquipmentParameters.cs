@@ -16,5 +16,5 @@ public class EquipmentParameters : ScriptableObject
     public LayerMask layerMask;
 
     [Header("List of Equipment")]
-    public List<EquipmentObject> Equipments;
+    public List<EquipmentData> Equipments;
 }
