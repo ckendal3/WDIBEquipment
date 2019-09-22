@@ -9,6 +9,9 @@ public class EquipmentData : ScriptableObject
     [Tooltip("Name of the Equipment")]
     public string Name;
 
+    [Tooltip("Force to Throw The Equipment")]
+    public float force;
+
     [Tooltip("Visuals")]
     public VisualComponent InnerVisuals;
     public VisualComponent OuterVisuals;

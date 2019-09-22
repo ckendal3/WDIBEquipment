@@ -47,6 +47,13 @@ static class EquipmentFactory
 
         SetComponents(entity, data.components.ToArray(), outerGo);
 
+
+        // TODO: Redo this by reformatting equipment data
+        if (eManager.HasComponent<Equipment>(entity) && eManager.GetComponentData<Equipment>(entity).Type == EquipmentType.Deployable)
+        {
+            go.AddComponent<RemoveRigidbodyOnGrounded>();
+        }
+
         return go;
     }
 
