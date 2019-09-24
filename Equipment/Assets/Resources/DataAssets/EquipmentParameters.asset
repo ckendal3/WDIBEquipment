@@ -21,4 +21,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   Equipments:
-  - {fileID: 11400000, guid: 44836ff52d581564ebf09407d9874e18, type: 2}
+  - {fileID: 11400000, guid: b86b8db2ff3d7e74fa9cfff153a27e6d, type: 2}

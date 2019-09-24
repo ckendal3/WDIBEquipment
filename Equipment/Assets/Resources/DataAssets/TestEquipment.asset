@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: TestEquipment
   m_EditorClassIdentifier: 
   Name: TestEquipment
+  force: 0
   InnerVisuals:
     Mesh: {fileID: 3591258141441080865, guid: 3d127eb70ce73054bb8031fdaa0c7ecf, type: 3}
     Material: {fileID: 2100000, guid: c8e598746bf2f1d49a059943580e5129, type: 2}
@@ -42,7 +43,7 @@ MonoBehaviour:
     00000002:
       type: {class: AreaOfEffect, ns: , asm: Assembly-CSharp}
       data:
-        Shape: 0
+        Shape: 1
         Size:
           x: 5
           y: 5

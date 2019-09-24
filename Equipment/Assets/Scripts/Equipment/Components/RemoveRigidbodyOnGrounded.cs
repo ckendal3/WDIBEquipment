@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
 
 public class RemoveRigidbodyOnGrounded : MonoBehaviour
 {
@@ -22,6 +19,7 @@ public class RemoveRigidbodyOnGrounded : MonoBehaviour
     {
         ray = new Ray(transform.position, Vector3.down);
 
+        // TODO: Get Collision layer (preferably ground/environmental)
         if(Physics.Raycast(ray, 0.55f, LayerMask.NameToLayer("Everything")))
         {
             Destroy(rb);
