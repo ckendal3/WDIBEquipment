@@ -1,0 +1,12 @@
+Implement Falloff Component (Curve based effects within AOE)
+Set Collision/Hit Layers Per Equipment and their outside effect (BubbleShield should block certain things)
+ - RemoveRigidbodyOnGrounded
+ - EquipmentFactory
+Revaluate Dynamic Component Adding
+Switch Statement for Overlap Type needs proper variable settings for all shape types
+Add Explosion component to Equipment 
+Destroy Equipment on Life ended
+Implement EquipmentParameters under CombatParameters
+Implement Adding Particle Effect Systems to proper game object that need it
+Implement Damaging/Physics through interfaces (uncomment)
+Implement EditorWindow for Equipment and remove the `OnEnable` code in the equipment
